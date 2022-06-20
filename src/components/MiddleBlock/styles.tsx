@@ -23,3 +23,11 @@ export const ContentWrapper = styled("div")`
     max-width: 100%;
   }
 `;
+
+export const ListDiv = styled("div")`
+  display: inline-flex;
+  align-content: center;
+  align-self: center;
+  align-items: center;
+  padding: 5px;
+`;

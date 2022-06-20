@@ -1,35 +1,35 @@
 {
-  "title": "Industries",
-  "text": "List Of the Industries We Are Working On",
+  "title": "OUR COMPETENCE",
+  "text": "List Of the Competience",
   "section": [
     {
-      "title": "HiTec & LowTech",
+      "title": "Technology",
       "content": "TechInfo",
       "icon": "waving.svg"
     },
     {
-      "title": "Education",
+      "title": "AI & Robotics",
       "content": "TechInfo",
       "icon": "waving.svg"
     }, {
-      "title": "Tourism & Hospitality",
+      "title": "Technology Education",
       "content": "TechInfo",
       "icon": "waving.svg"
     }, {
-      "title": "Healthcare",
+      "title": "MICE Tourism & Convention Business",
       "content": "TechInfo",
       "icon": "waving.svg"
     }, {
-      "title": "FinTech",
+      "title": "Concept Development, Brand Communication",
       "content": "TechInfo",
       "icon": "waving.svg"
     }, {
-      "title": "Public Sector",
+      "title": "Investment Consulting",
       "content": "TechInfo",
       "icon": "waving.svg"
     }
     , {
-      "title": "Defense & Security",
+      "title": "Operations Management",
       "content": "TechInfo",
       "icon": "waving.svg"
     }

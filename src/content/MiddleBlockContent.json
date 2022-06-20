@@ -1,6 +1,7 @@
 {
-    "title": "Introduce your product quickly & effectively",
-    "text": "Landy comes with multi-lingual support, all of the content is stored in the JSON files, so that you can manage the texts without having any prior knowledge in developing web applications using React.js.",
-    "button": "Get started"
+    "title": "WHO WE ARE",
+    "smallContent":"We are a highly experienced team of professionals with vast experience in technology, management, communication and business development for: ",
+    "text": "Public Sector, Hospitality, Education, Healthcare and Teleco.We differentiate ourselves with full solution offering, concept creation and high quality service.",
+    "button": ""
   }
   

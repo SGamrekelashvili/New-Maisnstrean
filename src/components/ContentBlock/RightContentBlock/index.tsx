@@ -10,11 +10,13 @@ import {
   ContentWrapper,
   ButtonWrapper,
 } from "./styles";
+import { MinPara, MinTitle, ServiceWrapper } from "../LeftContentBlock/styles";
 
 const RightBlock = ({
   title,
   content,
   button,
+  section,
   icon,
   t,
   id,
@@ -33,7 +35,7 @@ const RightBlock = ({
             <ContentWrapper>
               <h6>{t(title)}</h6>
               <Content>{t(content)}</Content>
-              <ButtonWrapper>
+              {/* <ButtonWrapper>
                 {typeof button === "object" &&
                   button.map((item: any, id: number) => {
                     return (
@@ -47,7 +49,22 @@ const RightBlock = ({
                       </Button>
                     );
                   })}
-              </ButtonWrapper>
+              </ButtonWrapper> */}
+              <ServiceWrapper>
+                <Row justify="space-between">
+                  {/* List Of Section Items */}
+                  {typeof section === "object" &&
+                    section.map((item: any, id: number) => {
+                      return (
+                        <Col key={id} span={11}>
+                          <SvgIcon src={item.icon} width="60px" height="60px" />
+                          <MinTitle>{t(item.title)}</MinTitle>
+                          <MinPara>{t(item.content)}</MinPara>
+                        </Col>
+                      );
+                    })}
+                </Row>
+              </ServiceWrapper>
             </ContentWrapper>
           </Col>
           <Col lg={11} md={11} sm={12} xs={24}>

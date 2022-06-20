@@ -33,6 +33,7 @@ const LeftContentBlock = ({
               <Content>{t(content)}</Content>
               <ServiceWrapper>
                 <Row justify="space-between">
+                  {/* List Of Section Items */}
                   {typeof section === "object" &&
                     section.map((item: any, id: number) => {
                       return (

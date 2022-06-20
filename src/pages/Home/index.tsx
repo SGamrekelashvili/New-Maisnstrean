@@ -2,6 +2,8 @@ import { lazy } from "react";
 import IntroContent from "../../content/IntroContent.json";
 import MiddleBlockContent from "../../content/MiddleBlockContent.json";
 import AboutContent from "../../content/AboutContent.json";
+import Competience from "../../content/Competience.json";
+
 import MissionContent from "../../content/MissionContent.json";
 import ProductContent from "../../content/ProductContent.json";
 import ContactContent from "../../content/ContactContent.json";
@@ -26,6 +28,7 @@ const Home = () => {
       />
       <MiddleBlock
         title={MiddleBlockContent.title}
+        smallContent={MiddleBlockContent.smallContent}
         content={MiddleBlockContent.text}
         button={MiddleBlockContent.button}
       />
@@ -35,16 +38,24 @@ const Home = () => {
         content={AboutContent.text}
         section={AboutContent.section}
         icon="graphs.svg"
-        id="about"
+        id="abouts"
       />
       <ContentBlock
+        type="right"
+        title={Competience.title}
+        content={Competience.text}
+        section={Competience.section}
+        icon="graphs.svg"
+        id="abouts"
+      />
+      {/* <ContentBlock
         type="right"
         title={MissionContent.title}
         content={MissionContent.text}
         icon="product-launch.svg"
         id="mission"
-      />
-      <ContentBlock
+      /> */}
+      {/*  <ContentBlock
         type="left"
         title={ProductContent.title}
         content={ProductContent.text}
@@ -55,7 +66,7 @@ const Home = () => {
         title={ContactContent.title}
         content={ContactContent.text}
         id="contact"
-      />
+      /> */}
     </Container>
   );
 };
