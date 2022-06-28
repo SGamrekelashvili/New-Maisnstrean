@@ -1,0 +1,13 @@
+{
+  "title": "Welcome To The MainStream",
+  "text": "Create Your Buisness Solution With Us",
+  "button": [
+    {
+      "title": "Explore"
+    },
+    {
+      "title": "Learn more",
+      "color": "#fff"
+    }
+  ]
+}

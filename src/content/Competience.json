@@ -1,0 +1,37 @@
+{
+  "title": "OUR COMPETENCE",
+  "text": "List Of the Competience",
+  "section": [
+    {
+      "title": "Technology",
+      "content": "TechInfo",
+      "icon": "waving.svg"
+    },
+    {
+      "title": "AI & Robotics",
+      "content": "TechInfo",
+      "icon": "waving.svg"
+    }, {
+      "title": "Technology Education",
+      "content": "TechInfo",
+      "icon": "waving.svg"
+    }, {
+      "title": "MICE Tourism & Convention Business",
+      "content": "TechInfo",
+      "icon": "waving.svg"
+    }, {
+      "title": "Concept Development, Brand Communication",
+      "content": "TechInfo",
+      "icon": "waving.svg"
+    }, {
+      "title": "Investment Consulting",
+      "content": "TechInfo",
+      "icon": "waving.svg"
+    }
+    , {
+      "title": "Operations Management",
+      "content": "TechInfo",
+      "icon": "waving.svg"
+    }
+  ]
+}

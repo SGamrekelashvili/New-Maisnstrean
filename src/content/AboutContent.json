@@ -1,0 +1,37 @@
+{
+  "title": "Industries",
+  "text": "List Of the Industries We Are Working On",
+  "section": [
+    {
+      "title": "HiTec & LowTech",
+      "content": "TechInfo",
+      "icon": "waving.svg"
+    },
+    {
+      "title": "Education",
+      "content": "TechInfo",
+      "icon": "waving.svg"
+    }, {
+      "title": "Tourism & Hospitality",
+      "content": "TechInfo",
+      "icon": "waving.svg"
+    }, {
+      "title": "Healthcare",
+      "content": "TechInfo",
+      "icon": "waving.svg"
+    }, {
+      "title": "FinTech",
+      "content": "TechInfo",
+      "icon": "waving.svg"
+    }, {
+      "title": "Public Sector",
+      "content": "TechInfo",
+      "icon": "waving.svg"
+    }
+    , {
+      "title": "Defense & Security",
+      "content": "TechInfo",
+      "icon": "waving.svg"
+    }
+  ]
+}
