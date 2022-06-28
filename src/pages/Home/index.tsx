@@ -46,7 +46,7 @@ const Home = () => {
         content={Competience.text}
         section={Competience.section}
         icon="graphs.svg"
-        id="abouts"
+        id="about"
       />
       {/* <ContentBlock
         type="right"
