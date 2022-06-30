@@ -74,7 +74,7 @@ const RightBlock = ({
               </ServiceWrapper>
             </ContentWrapper>
           </Col>
-          <Col lg={11} md={11} sm={12} xs={24}>
+          <Col  lg={11} md={11} sm={12} xs={24}>
             {
   getImage()  === "svg" ?
   <SvgIcon src={icon} width="100%" height="100%" />

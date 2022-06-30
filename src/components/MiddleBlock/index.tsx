@@ -141,6 +141,7 @@ display: "inline-flex",
             </Row>
           </Row>
         </Slide>
+      <Divider style={{ marginTop: 60 }} orientation="center" />
       </Row>
     </MiddleBlockSection>
   );
